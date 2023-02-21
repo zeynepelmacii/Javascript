@@ -92,3 +92,4 @@ let price = 10;
 let VAT = 0.25;
 text = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
 console.log("E = " + text)
+
