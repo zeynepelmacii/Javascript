@@ -1,0 +1,5 @@
+function validatePIN (pin) {
+  return typeof pin === 'string' && // verify that the pin is a string
+    Number.isInteger(+pin) && // make sure that the string is an integer when converted into a number
+    [4, 6].includes(pin.length) // only accepts 4 and 6 character pins
+}
