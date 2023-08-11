@@ -1,5 +1,10 @@
-function addBinary(a,b) {
-  console.log((a+b).toString(2)) 
+/*
+In this exercise, we will take the sum of two numbers and
+print that sum as a binary string in the console.
+*/
+
+function addBinary(a, b) {
+  console.log((a + b).toString(2)); // toString(2) performs the conversion to binary
 }
 
-addBinary(5,9);
+addBinary(5, 9); // The output will be: 5 + 9 = 14 - binary(14) = 1110
